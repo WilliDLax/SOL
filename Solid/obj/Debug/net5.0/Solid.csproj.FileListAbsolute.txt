@@ -1,0 +1,15 @@
+/Users/wemabank/Projects/Solid/Solid/bin/Debug/net5.0/Solid.deps.json
+/Users/wemabank/Projects/Solid/Solid/bin/Debug/net5.0/Solid.runtimeconfig.json
+/Users/wemabank/Projects/Solid/Solid/bin/Debug/net5.0/Solid.runtimeconfig.dev.json
+/Users/wemabank/Projects/Solid/Solid/bin/Debug/net5.0/Solid.dll
+/Users/wemabank/Projects/Solid/Solid/bin/Debug/net5.0/ref/Solid.dll
+/Users/wemabank/Projects/Solid/Solid/bin/Debug/net5.0/Solid.pdb
+/Users/wemabank/Projects/Solid/Solid/obj/Debug/net5.0/Solid.csproj.AssemblyReference.cache
+/Users/wemabank/Projects/Solid/Solid/obj/Debug/net5.0/Solid.GeneratedMSBuildEditorConfig.editorconfig
+/Users/wemabank/Projects/Solid/Solid/obj/Debug/net5.0/Solid.AssemblyInfoInputs.cache
+/Users/wemabank/Projects/Solid/Solid/obj/Debug/net5.0/Solid.AssemblyInfo.cs
+/Users/wemabank/Projects/Solid/Solid/obj/Debug/net5.0/Solid.csproj.CoreCompileInputs.cache
+/Users/wemabank/Projects/Solid/Solid/obj/Debug/net5.0/Solid.dll
+/Users/wemabank/Projects/Solid/Solid/obj/Debug/net5.0/ref/Solid.dll
+/Users/wemabank/Projects/Solid/Solid/obj/Debug/net5.0/Solid.pdb
+/Users/wemabank/Projects/Solid/Solid/obj/Debug/net5.0/Solid.genruntimeconfig.cache
