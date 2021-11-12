@@ -6,15 +6,18 @@ namespace Solid
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Schools");
             PrivateSchool school1 = new PrivateSchool();
             PublicSchool school2 = new PublicSchool();
+
+            //Two schools with the same methods inherited from the parent class (Liskov substitution)
 
             school1.Name = "St Pauls Secondary";
             school1.Address = "Accra Ghana";
             school1.Income = 450000;
             school1.RemoveCommission();
             school1.ShowInfo();
+
+            Console.WriteLine();
 
             school2.Name = "Methodist High";
             school2.Address = "Owerri Nigeria";
@@ -42,21 +45,32 @@ namespace Solid
     {
         public double RemoveCommission()
         {
+            //not having to change the value in the parent class
             Income -= 250000;
             return Income;
         }
     }
 
-    //child class: public schools receive sponsorship
-    class PublicSchool : Schools, IGetsSponsorship
+    //child class: public schools receive sponsorship and can go on strike
+    class PublicSchool : Schools, IGetsSponsorship, IGoOnStrike
     {
         public double AddSponsorship()
         {
             Income += 150000;
             return Income;
         }
+
+        public void GoOnStrike()
+        {
+            Console.WriteLine("On strike!");
+        }
     }
 
+
+    //No class is instantiated in another following dependency inversion
+
+
+    //Individual interfaces following interface segregation
     public interface IPaysCommission
     {
         public double RemoveCommission();
@@ -65,6 +79,11 @@ namespace Solid
     public interface IGetsSponsorship
     {
         public double AddSponsorship();
+    }
+
+    public interface IGoOnStrike
+    {
+        public void GoOnStrike();
     }
 
 }
